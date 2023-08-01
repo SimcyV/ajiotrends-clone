@@ -1,0 +1,278 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.header{
+    width:100%;
+    height:80px;
+    margin: none;
+}
+.left-header{
+   width:50%;
+   height:80px;
+   float: left;
+   display: flex;
+}
+.left-header img{
+    width:38%;
+    padding-left: 160px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+.right-header{
+    width: 50%;
+    height:80px;
+    float: right;
+}
+.right-upper{
+    height: 40%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.right-upper a{
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    text-decoration: none;
+    color: black;
+}
+.right-lower{
+    height: 60%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-lower p{
+    background-color: rgb(65, 64, 66);
+    padding: 8px 15px;
+    border-radius: 25px 0px 0px 25px;
+    color: white;
+}
+.search-bar{
+    width: 30%;
+    height: 80%;
+    border-radius:0px 25px 25px 0px;
+    border-color: 1px black;
+}
+
+.ajio{
+    width: 78.97px;
+    height: 27.2px;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #304050;
+    color:#fff;
+    margin-left: 3px;
+    margin-top: 0.8px;
+    
+}
+
+.ajio:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.luxe:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.luxe{
+    margin-left: 7px;
+    width:109.36px;
+    height:27.2px;
+    font-size: 11px;
+    font-family: sans-serif;
+    background-color: #000000;
+    color: #fff;
+
+}
+
+/* .search-bar{
+    border-radius:  20px;
+    font-family: sans-serif;
+    width: 180px;
+    height:29px;
+    padding-left: 18px;
+    padding-top: 2px;
+    margin-top: 35px;
+    font-size: 16px;
+    margin-left: none;
+    border-color:#474747;
+    } */
+.second-nav{
+    background-color: #434141;
+    width:100%;
+    height:104px;
+
+}
+.second-nav img{
+     width:152.16px;
+     height:35px;
+     padding-left:690px;
+     padding-top: 2px;
+     
+}
+.second-navtext{
+    padding-left:590px; 
+    color:#FFFFFF;
+    font-family:sans-serif;
+    cursor: pointer;
+
+}
+
+.third-nav{
+    width: 100%;
+    height:95px;
+}
+.third-nav img{
+width:100%;
+}
+.banner{
+    width: 100%;
+    height:100%;
+   
+}
+.banner img{
+    width:100%;
+    cursor: pointer;
+    object-fit: cover;
+}
+.banner img:hover{
+    transform: scale(1.02);
+    transition: 0.16px;
+
+}
+
+.plain-div{
+    width: 100%;
+    height:41px;
+    background-color:none;
+}
+.green-div{
+    width: 100%;
+    height:70px;
+    background-color:#5b7221;
+}
+.text-ingreen{
+    font-weight: bolder;
+    color:black;
+    padding-left:630px;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    cursor: pointer;
+
+}
+.text-ingreen:hover{
+    transform: scale(1.2);
+    
+}
+.first-option{
+    width: 100%;
+    display: flex;
+    margin:none;
+    
+
+}
+.option1 img{
+    width:382px;
+    height:548.6;
+
+    
+}
+.option1 img:hover{
+        transform: scale(1.01);
+        
+}
+.yellow-div{
+    width: 100%;
+    height:70px;
+    background-color:#d4cd47;
+}
+.text-inyellow{
+    font-weight: bolder;
+    color:black;
+    padding-left:630px;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    cursor: pointer;
+
+}
+.text-ingreen:hover{
+    transform: scale(1.2);
+}
+.blue-banner img{
+    width: 100%;
+
+}
+.blue-banner img:hover{
+    transform: scale(1.02);
+}
+.icon-div{
+    width: 100%;
+    height:115px;
+
+}
+.main-footer{
+    width:100%;
+    display:block;
+    height: 500px;
+    background-color: #3e3636;
+  }
+  .foot-1{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+    padding-top: 30px;
+  }
+  .options1{
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    list-style-type: none;
+
+  }
+  .list1{
+    list-style-type: none;
+    font-family: sans-serif;
+  }
+
+  .list1 li{
+    margin-bottom:10px
+  }
+  .same-font{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding:3.2px 0px;
+    width: 367.8px;
+    height:33.6;
+    list-style-type: none;
+    padding-top: 10px;
+  }
+
+  .socialmedia-text{
+    width: 80%;
+    margin: auto;
+    font-family:sans-serif;
+  }
+  .socialmedia-text p{
+    color: #fff;
+    font-size: 24px;
+  }
+  .socialmedia-text a{
+    color: white;
+    text-decoration: none;
+    margin:10px 20px 10px 0px;
+  }
